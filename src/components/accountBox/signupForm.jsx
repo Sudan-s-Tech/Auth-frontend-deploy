@@ -28,7 +28,7 @@ export function SignupForm() {
     }
     axios({
       method: "post",
-      url: "http://localhost:5000/users/signup",
+      url: "https://sudan-tech-backend.herokuapp.com/users/signup",
       data:content,
       headers: {
         "Content-Type": "application/json",
